@@ -1,6 +1,6 @@
 import pygame as pg
 from heapq import *
-
+#Implementacion del algoritmo de dijkstra
 
 def get_circle(x, y):
     return (x * TILE + TILE // 2, y * TILE + TILE // 2), TILE // 4 #Forma los circulos 
